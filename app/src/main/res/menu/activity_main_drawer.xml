@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Home"/>
+        <item
+            android:id="@+id/about_vvce"
+            android:icon="@android:drawable/star_big_on"
+            android:title="About VVCE" />
+        <item
+            android:id="@+id/activities"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="Activities &amp; Notification" />
+        <item
+            android:id="@+id/gallary"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/facilities"
+            android:icon="@android:drawable/ic_menu_sort_alphabetically"
+            android:title="Facilities" />
+
+        <item
+            android:id="@+id/club"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Clubs" />
+
+        <item
+            android:id="@+id/alumni"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Alumni" />
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/app"
+                android:icon="@mipmap/vvce_round"
+                android:title="About App" />
+        </menu>
+    </item>
+
+</menu>

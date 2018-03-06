@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wisemensolutions.nammavvce.cseactivity">
+    <!--Designed by Kartikeya P Malimath on 08-11-2017-->
+
+    <!--Last updated on-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/eeedept"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical">
+            
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:contentDescription="@string/cse"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/blockb" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorheading"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Dept. of Electricals &amp; Electronics  Engineering"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:text="@string/eee.vision.mision"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/eee.vision"
+                android:textColor="@color/white"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+                </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/abouteeehead"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/eeedes"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+
+
+            <!--Designed by Kartikeya P Malimath on 11-11-2017-->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorheading"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/Recent"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorPrimary"
+                android:padding="6dp">
+
+                   <TextView
+                    android:id="@+id/eee_recent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp"
+                    android:singleLine="true"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"/>
+
+                <TextView
+                    android:id="@+id/eee_recent2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp"
+                    android:singleLine="true"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"/>
+
+                <TextView
+                    android:id="@+id/eee_recent3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp"
+                    android:singleLine="true"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"/>
+
+                <TextView
+                    android:id="@+id/eee_recent4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp"
+                    android:singleLine="true"
+                    android:scrollHorizontally="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"/>
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Labs"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/eeelab"
+                android:scaleType="centerCrop"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textbackground"
+                android:padding="8dp"
+                android:text="@string/ecelab"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:text="@string/eee.mission.head"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/eee.mission1"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/eee.mission2"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textbackground"
+                android:padding="8dp"
+                android:text="@string/eee.mission3"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/eee.mission4"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+
+                </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Industrial Visits"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/eee_visit" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textbackground"
+                android:padding="8dp"
+                android:text="@string/indvisit"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/eeefaculty"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <Button
+                android:id="@+id/eeefaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/click.faculty.list" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingRight="10dp"
+                android:text="@string/kartikeya.Malimath"
+                android:textColor="@color/white"
+                android:background="@color/colorheading"
+                android:textSize="12sp" />
+            
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="wisemensolutions.nammavvce.facility"
+    tools:showIn="@layout/app_bar_facility"
+    android:orientation="vertical">
+
+    <!--Created by Kartikeya Malimath on 26-11-2017-->
+
+    <!--Last updated on -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:contentDescription="@string/cse"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vvcecollege" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="VVCE Annual Intake"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/facility_intake_text"
+                android:textColor="@color/white"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+                
+                </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <!--Created by Kartikeya Malimath on 26-11-2017-->
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorlightblue"
+                android:orientation="vertical"
+                android:padding="3dp"
+                android:shrinkColumns="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/csEngg"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="120"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/isEnggg"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="60"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+                <!--Created by Kartikeya Malimath on 26-11-2017-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/ecEngg"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="120"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eeEngg"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="60"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+                <!--Created by Kartikeya Malimath on 26-11-2017-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/meEngg"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="120"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/civilEngg"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="60"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="Total"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="540"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/mba"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="120"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/M.tech_CAMS"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="18"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/M.tech_MchDsgn"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="18"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/M.tech_signal"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                    <!--Created by Kartikeya Malimath on 26-11-2017-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:maxLines="1"
+                        android:padding="6dp"
+                        android:text="18"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/Hostel"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/hostel_des"
+                android:textColor="@color/black"
+                android:background="@color/textbackground"
+                android:textSize="15.5sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dept"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/PE_sports"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/PE1"
+                android:textColor="@color/black"
+                android:background="@color/textbackground"
+                android:textSize="15.5sp" />
+            <!--Created by Kartikeya Malimath on 26-11-2017-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/PE2"
+                android:textColor="@color/black"
+                android:background="@color/textbackground"
+                android:textSize="15.5sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/PE3"
+                android:textColor="@color/black"
+                android:background="@color/textbackground"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/Transport"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/transport"
+                android:textColor="@color/black"
+                android:background="@color/textbackground"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorheading"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/scholarship"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/scholar"
+                android:textColor="@color/black"
+                android:background="@color/textbackground"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/gym"
+                android:textColor="@color/white"
+                android:textSize="15.5sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/gym_des"
+                android:textColor="@color/black"
+                android:background="@color/textbackground"
+                android:textSize="15.5sp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorheading"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:text="@string/kartikeya.Malimath"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+            
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

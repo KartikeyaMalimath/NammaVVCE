@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Preset by Kartikeya P Malimath-->
+    <!--<color name="colorPrimary">#0288d1</color>-->
+    <color name="colorPrimary">#ffe92214</color>
+    <color name="colorheading">#ff131313</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorlightblue">#b3e5fc</color>
+    <color name="colorAccent">#f4f4f4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#ffffff</color>
+    <!--<color name="background">#cfcfe1</color>-->
+    <color name="background">#ffededed</color>
+    <!--<color name="green">#ff8400</color>-->
+    <color name="dept">#ff009999</color>
+    <color name="textbackground">#ffffffff</color>
+    <color name="contact">#ff383b40</color>
+</resources>

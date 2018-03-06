@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wisemensolutions.nammavvce.splashscreen">
+    <!--Designed by Kartikeya P Malimath on 08-11-2017-->
+
+    <!--Last updated on-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_horizontal|center_vertical">
+        <!--Splash Image Designed by Dinavahi Sri Chaitanya on 10-12-2017-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="logo"
+            android:src="@drawable/splash2"
+            android:scaleType="fitXY" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+
+    <!--Last updated on-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ece.faculty.list"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorlightblue">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="?attr/dividerHorizontal"
+                android:orientation="vertical"
+                android:padding="3dp"
+                android:shrinkColumns="1">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:text="@string/faculty.name.designation"
+                        android:padding="6dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/black"
+                        android:padding="6dp"
+                        android:textSize="16sp"
+                        android:text="@string/qualification"
+                        android:layout_weight="3"/>
+
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:background="@color/colorPrimary"/>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceD.J.Ravi"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+                    <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceSurekha"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceChandrashekar"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceSuchitra"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+                <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceShilpa"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceGeetha"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceSandeep"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+                <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceGEetha"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceChethana"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceSudheesh"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceJagadeesh"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+                <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceArjun"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+                    <!--Designed by Kartikeya P Malimath on 11-11-2017-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceMahadeva"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceChethan"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceSharath"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech.Ph.D."
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceSowmya"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+                <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceKavya"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceGirijamba"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceKavyashree"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceRohith"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceAlfred"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceBhargavi"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+                <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceSahana"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+                    <!--Designed by Kartikeya P Malimath on 11-11-2017-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/ecePraveena"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceAudre"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:padding="6dp"
+                        android:text="@string/eceShyma"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+                <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="@string/eceYogeshwari"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="@string/M.Tech"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/colorPrimary"/>
+
+
+                <!--Designed by Kartikeya P Malimath on 12-11-2017-->
+
+
+
+            </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>

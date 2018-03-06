@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "750303476276",
+    "firebase_url": "https://vvce-mysuru.firebaseio.com",
+    "project_id": "vvce-mysuru",
+    "storage_bucket": "vvce-mysuru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750303476276:android:7a8281c13e8411a6",
+        "android_client_info": {
+          "package_name": "wisemensolutions.nammavvce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750303476276-btt20m96mm1bblqpj1i991jv7pmcpl1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wisemensolutions.nammavvce",
+            "certificate_hash": "00de85193347e2d2691af6e0ee280e5f58e12874"
+          }
+        },
+        {
+          "client_id": "750303476276-oh0vq42rprphtu92q96o9ugj7qu07o6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZZTsQ2ioZd7SKtLAc0EkQjoMzHjuwoi0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750303476276-oh0vq42rprphtu92q96o9ugj7qu07o6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

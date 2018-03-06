@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wisemensolutions.nammavvce.cseactivity">
+    <!--Designed by Kartikeya P Malimath on 08-11-2017-->
+
+    <!--Last updated on-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/Mech"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical">
+
+            
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:contentDescription="@string/cse"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dblock" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Department of Mechanical Engineering"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    android:background="@color/colorheading"
+                    android:textColor="@color/white"
+                    android:padding="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:text="@string/mech.vision.mision"
+                android:padding="7dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />              
+                
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mech.vision"
+                android:textColor="@color/white"
+                android:textSize="15.58sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/aboutmech"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mechdes"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.58sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorheading"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/Recent"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:padding="6dp">
+                
+
+                <TextView
+                    android:id="@+id/mech_recent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.58sp" />
+
+                <TextView
+                    android:id="@+id/mech_recent2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.58sp" />
+
+                <TextView
+                    android:id="@+id/mech_recent3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.58sp" />
+
+                <TextView
+                    android:id="@+id/mech_recent4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.58sp" />
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Workshops"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mech_workshop" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textbackground"
+                android:padding="8dp"
+                android:text="@string/workshop"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:text="@string/mech.mission.head"
+                android:textColor="@color/white"
+                android:textSize="18sp" 
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mechmission1"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.58sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mechmission2"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.58sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mechmission3"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.58sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mechmission4"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.58sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mechmission5"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.58sp" />
+
+                </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Labs"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mech_labspng" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textbackground"
+                android:padding="8dp"
+                android:text="@string/melabs"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:gravity="center_horizontal"
+                android:text="@string/mefaculty"
+                android:background="@color/colorPrimary"/>
+            
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <Button
+                android:id="@+id/mechfaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/click.faculty.list"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingRight="10dp"
+                android:text="@string/kartikeya.Malimath"
+                android:textColor="@color/white"
+                android:background="@color/colorheading"
+                android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

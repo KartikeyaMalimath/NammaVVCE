@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wisemensolutions.nammavvce">
+
+    <!-- Created by Kartikeya P Malimath on 08/11/2017 -->
+
+
+    <!-- Last updated on -->
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+     Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+    -->
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_icon"
+        android:resource="@mipmap/vvce_round" />
+    <!--
+         Set color used with incoming notification messages. This is used when no color is set for the incoming
+         notification message. See README(https://goo.gl/6BKBk7) for more.
+    -->
+    <meta-data
+        android:name="com.google.firebase.messaging.default_notification_color"
+        android:resource="@color/colorAccent" />
+
+    <application
+        android:name=".NammaVVCE"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/vvce_square"
+        android:label="Namma VVCE"
+        android:roundIcon="@mipmap/vvce_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.wisemensolutions.nammavvce.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cseactivity" />
+        <activity android:name=".iseactivity" />
+        <activity android:name=".eceactivity" />
+        <activity android:name=".eeeactivity" />
+        <activity android:name=".mechactivity" />
+        <activity android:name=".civilactivity" />
+        <activity android:name=".mbaactivity" />
+        <activity android:name=".tapactivity" />
+        <activity android:name=".cse_faculty" />
+        <activity android:name=".ise_faculty" />
+        <activity android:name=".mech_faculty" />
+        <activity android:name=".eee_faculty" />
+        <activity android:name=".ece_faculty" />
+        <activity
+            android:name=".about_vvce"
+            android:label="@string/title_activity_about_vvce"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".facility"
+            android:label="@string/title_activity_facility"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".mba_faculty" />
+        <activity
+            android:name=".activitiesandmemo"
+            android:label="@string/title_activity_activitiesandmemo"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".alumni"
+            android:label="@string/title_activity_alumni"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".clubs"
+            android:label="@string/title_activity_clubs"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".about_app"
+            android:label="@string/title_activity_about_app"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".gallery"
+            android:label="@string/title_activity_gallery"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".civil_faculty"></activity>
+    </application>
+
+</manifest>

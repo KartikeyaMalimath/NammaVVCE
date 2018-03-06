@@ -1,0 +1,472 @@
+<resources>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">App Feedback</string>
+    <string name="title_activity_administartion">Administartion</string>
+    <string name="title_activity_about_vvce">About VVCE</string>
+    <string name="title_activity_activitiesandmemo">Activities and Memo</string>
+    <string name="title_activity_alumni">Alumni</string>
+    <string name="title_activity_clubs">Clubs</string>
+
+
+    <string name="app_name">Namma VVCE</string>
+    <!--Created by Kartikeya P Malimath on 08-11-2017-->
+    <string name="address">VidyaVardhaka College of Engineering : III Stage, Gokulum, Near Vijayanagar Water Tank, Contour Road, Mysuru, Karnataka-570002</string>
+    <string name="Recent">Recent Activities</string>
+    <string name="click.faculty.list">Click Here to View Faculty List</string>
+    <string name="faculty.name.designation">Name and Designation</string>
+    <string name="qualification">Qualification</string>
+    <string name="vvce.vision.mision">Vision of VVCE</string>
+    <string name="vvce.mission.head">Missions of VVCE</string>
+    <string name="Department">DEPARTMENTS</string>
+    <string name="csEngg">Computer Science Engineering</string>
+    <string name="isEnggg">Information Science Engineering</string>
+    <string name="eeEngg">Electricals &amp; Electronics Engineering</string>
+    <string name="ecEngg">Electronics &amp; Communication Engineering</string>
+    <string name="meEngg">Mechanical Engineering</string>
+    <string name="civilEngg">Civil Engineering</string>
+    <string name="mba">MBA</string>
+    <string name="tap">Training And Placement</string>
+    <string name="about.vvce">About VVCE</string>
+    <string name="contactus">Contact Us On</string>
+    <string name="Follow">Follow Us On</string>
+    <string name="kartikeya.Malimath">Developed by: Kartikeya Malimath and Team. \nCopyright VVCE Mysuru ©</string>
+    <string name="noNet">No Internet!</string>
+
+    <string name="faculty.des">556 Certified, Wel-Trained and student friendly Faculties. </string>
+
+    <string name="fest">Many cultural and literary events like Fashion Designing, Voice of VVCE, Computer gaming, Face painting, Dumb Charads, Tshirt Painting, Stunt show and many are conducted as a part of Annual Fest- The VIDYUTH</string>
+
+    <string name="club.des">Many clubs have been initiated for promoting Entrepreneurship skills, Project development skills and all-round development of the students</string>
+
+    <string name="vvce.Des">Description</string>
+
+    <string name="vvce.mission1">• To provide the best teaching - learning environment through competent staff and excellent infrastructure</string>
+    <string name="vvce.mission2">• To inculcate professional ethics, leadership qualities, communication and  entrepreneurial skills to meet the societal needs</string>
+    <string name="vvce.mission3">• To promote innovation through research and development</string>
+    <string name="vvce.mission4">• To strengthen industry-institute interaction for knowledge sharing</string>
+
+
+    <string name="vvce.vision">VVCE shall be a leading Institution in engineering and management education enabling individuals for significant contribution to the society
+    </string>
+
+    <string name="about_college1"> VVCE – A Centre of Excellence in Technical &amp; Management Education
+Vidyavardhaka Sangha (VVS) stands as a synonym for quality education in the heritage city of Mysuru. VVS was established in 1949 by great visionaries namely Late Sahukar Channaiah and Late. K. Puttaswamy (Former Minister of Karnataka) to impart quality education to all sections of the society. There are ten educational institutions starting from nursery to engineering college under the aegis of VVS. At present, Sangha is under the able guidance and leadership of Sri Gundappa Gowda, President and Sri P. Vishwanath, Secretary.
+    </string>
+
+    <string name="vvce_college2">Vidyavardhaka College of Engineering, popularly referred as VVCE, is one of the most prestigious engineering colleges in Karnataka. Established in 1997, VVCE has grown in leaps and bounds. VVCE is affiliated to Visvesvaraya Technological University (VTU), Belgaum, approved by AICTE, New Delhi and recognized by Govt. of Karnataka. VVCE functions through its Board of Governors constituted as per AICTE guidelines.
+    </string>
+
+    <string name="vvce_college3">The college is under the able leadership of Dr. B. Sadashive Gowda as Principal, who has rich experience in industry and education field both in India and abroad. VVCE has a vision to become a centre of excellence in Academics and management education. The campus is equipped with six research centers providing opportunity to work in frontier areas of technology. Faculty members are well qualified, experienced and have great passion for teaching &amp; learning. The faculties provide conducive learning environment empowering students with cutting edge knowledge. The learning environment includes technical seminars, projects, industry visits, entrepreneurial trainings, group discussions besides conventional teaching.
+    </string>
+
+    <string name="vvce_college4">The college has taken stringent measures as per AICTE norms to prevent any incidents of ragging.
+VVCE has proved itself as one of the best colleges for technical and management education in Karnataka.</string>
+
+
+    <string name="facility_intake_text">The college has an annual intake of 540 students for Under Graduate courses and 174 students for Post Graduate courses. The college now offers under graduate courses in six disciplines and PG courses in 2 disiplines. The following are the courses offered by the college at present</string>
+
+
+    <string name="M.tech_CAMS">M.Tech in CAMS</string>
+    <string name="M.tech_MchDsgn">M.Tech in Machine Design</string>
+    <string name="M.tech_signal">M.Tech in Signal Processing</string>
+    <string name="Hostel">Hostel Facilities</string>
+    <string name="PE_sports">Physical Education &amp; Sports</string>
+    <string name="Transport">Transport Conveyance</string>
+    <string name="scholarship">Scholarships and Awards</string>
+    <string name="gym">GYM &amp; Fitness Center</string>
+
+    <string name="hostel_des">Separate hostel facilities are available for both boys and girl students with meals and atmost care is taken for security of students</string>
+
+    <string name="PE1">With a firm belief that physical fitness leads to mental fitness, the college encourages various sports and games.
+</string>
+
+    <string name="PE2">Sports facilities are provided to the students for both indoor and outdoor games. Various inter college sports tournaments are conducted by the college sports council. The students also take part in various inter collegiate and varsity sports meet.
+</string>
+
+    <string name="PE3">The Sports Council consisting of senior staff members and the captains of the College teams organise an Annual Sports and Athletics meet as part of "VIDYUTH" which is an Inter Engineering Colege festival and encourages the students to participate in various VTU Inter collegiate sports activities.
+</string>
+
+    <string name="transport">Good number of city buses ply from City Central Bus Stand.
+From City – Route Nos. 112, 119, 123, 83, 84, 10, 101, 122, 116 (Volvo).</string>
+
+    <string name="scholar">[A] Fee Concession/Scholarships from Director of Technical Education, Bangalore.\n[1] Fee concession to the students belonging to group 2A, 2B, 3A &amp; 3B students whose parents/guardian income is not more than Rs.11,000/- P.A.\n[2] Fee concession to the SC/ST and category-1 group students whose income is not more than Rs. 1,00,000/- P.A.\n[3] Government of India National Merit Scholarship.\n\n[B] Scholarship from District Social Welfare Office, Mysore District, Mysore.\n[1] Government of India post metric scholarship of scheduled caste and scheduled tribe students.\n\n[C] Scholarship from District Officer for Backward Classes &amp; Minorities, Mysore District, Mysore.\n[1] Post metric scholarship to students belonging to back word classes and minorities.\n\n[E] S.J. Jindal Trust, Jindal – Nigam Tumkur Road, Bangalore\n[1] Award of Scholarship.
+</string>
+
+    <string name="gym_des">Well equipped gym located in boys hostel. Trainer to help in fitness of the students</string>
+    <!--Created by Madhura on 10-11-2017 & Soumaya on 12-11-2017
+            Edited by Kartikeya P Malimath on 11-11-2017-->
+
+    <!--Department of CSE-->
+
+    <string name="cse.faculty.list">CS&amp;E Faculty List</string>
+    <string name="csvision.mision">Vision of CS&amp;E Department</string>
+    <string name="csmission.head">Missions of CS&amp;E Department</string>
+    <string name="cse">Department of CS&amp;E</string>
+    <string name="aboutcsehead">About CS&amp;E Department</string>
+    <string name="csefaculty">Faculties of CS&amp;E</string>
+    <string name="csRavi">Dr. RAVI KUMAR V\n( Professor &amp; HoD )</string>
+    <string name="M.Tech.Ph.D.">M.Tech, Ph.D</string>
+    <string name="csPOORNIMA">POORNIMA B.G\n( Associate Professor )</string>
+    <string name="csPARAMESHA">PARAMESHA.K\n( Associate Professor )</string>
+    <string name="M.Tech.CNE.phd">M.Tech.(CNE) (Ph.D)</string>
+    <string name="M.Tech.cne">M.Tech.(CNE)</string>
+    <string name="M.Tech.cne.Ph.D.cne">M.Tech.CNE,Ph.D(CNE)</string>
+    <string name="csPOOJA">POOJA M.R\n( Associate Professor )</string>
+    <string name="M.Tech.se.Ph.D">M.Tech.(SE),(Ph.D)</string>
+    <string name="csKHASIM">D.KHASIM VALI\n( Associate Professor )</string>
+    <string name="M.Tec.Ph.D">M.Tech.(MEM),(Ph.D)</string>
+    <string name="csNATESH">NATESH M\n( Associate Professor )</string>
+    <string name="M.Tech.Ph.D">M.Tech.(CSE),(Ph.D)</string>
+    <string name="csJANHAVI">JANHAVI  V\n( Associate Professor )</string>
+    <string name="M.S.Ph.D">M.S.(CN),(Ph.D)</string>
+    <string name="csRAVI">RAVI P\n(Assistant Professor)</string>
+    <string name="M.Tech.cse.Ph.D">M.Tech.(CSE),(Ph.D)</string>
+    <string name="csHAMSAVENI">HAMSAVENI M A\n(Assistant Professor)</string>
+    <string name="M.Tech.mem.Ph.D">M.Tech.(MEM),(Ph.D)</string>
+    <string name="csSHRADDHA">SHRADDHA  C\n(Assistant Professor)</string>
+    <string name="M.Tech.dcn">M.Tech.(DCN)</string>
+    <string name="csPoornima">POORNIMA N\n(Assistant Professor)</string>
+    <string name="csJAMUNA">JAMUNA\n(Assistant Professor)</string>
+    <string name="csMEGHA.D.BENGALUR">MEGHA D BENGALUR\n(Assistant Professor)</string>
+    <string name="M.Tech.DE">M.Tech.</string>
+    <string name="csCHETHANA.H.T">CHETHANA H T\n(Assistant Professor)</string>
+    <string name="M.Tech.se"> M.Tech.(SE)</string>
+    <string name="csSHILPA.H">SHILPA H\n(Assistant Professor)</string>
+    <string name="M.Tech.cse">M.Tech.(CSE)</string>
+    <string name="csKARTHIK.V">KARTHIK V\n(Assistant Professor)</string>
+    <string name="csRADHIKA.A.D">RADHIKA A D\n(Assistant Professor)</string>
+    <string name="csDIVYA.C.D">DIVYA C D\n(Assistant Professor)</string>
+    <string name="csCHARUNAYANA.V">CHARUNAYANA V\n(Assistant Professor)</string>
+    <string name="csVINAY.M.G">VINAY M G\n(Assistant Professor)</string>
+    <string name="csSREENIVAS">Dr. T H SREENIVAS\n(Professor)\n(Assistant Professor)</string>
+    <string name="csRAMYA.S">RAMYA S\n(Assistant Professor)</string>
+    <string name="csAMBIKA.V">AMBIKA V\n(Assistant Professor)</string>
+    <string name="csGURURAJ.H.L">GURURAJ H L\n(Assistant Professor)</string>
+    <string name="csUSHA.C.S">USHA C S\n(Assistant Professor)</string>
+    <string name="csPAVAN.UMAR.S.P">PAVAN KUMAR S P\n(Assistant Professor)</string>
+    <string name="csSACHIN.D.N">SACHIN D N\n(Assistant Professor)</string>
+    <string name="csNITHIN.KUMAR">NITHIN KUMAR\n(Assistant Professor)</string>
+    <string name="csNANDINI.S.B">NANDINI S B\n(Assistant Professor)</string>
+    <string name="M.Tech.nie">M.Tech.(NIE)</string>
+
+    <string name="apple.des">Apple Labs furnished with 25 Apple computers for ios development workshops so as to make students ready in coding for current trends</string>
+
+    <string name="classroom">Interactive class with Projectors, Well arranged seating, ventilation and Class Recording in every classrooms</string>
+
+
+    <string name="csmission1">1. Promote best practices in teaching-learning, with dedicated staff and supportive infrastructure to create technically competent engineers.</string>
+    <string name="csmission2">2. Inculcate ethical and cultural values, communication and Entrepreneurial skills</string>
+    <string name="csmission3">3. Provide exposure of tools and technologies necessary to pursue higher education and research.</string>
+    <string name="csmission4">4. Improve Industry-Institute relationship for mutual benefit</string>
+
+
+    <string name="csedes">The Department of Computer Science &amp; Engineering was established in the year 1997, right from the inception of the Institution. The objective of the Department is imparting quality technical education. The department is well equipped with good infrastructure such as latest computers, Laboratory Equipments, 10 Mbps leased line connection &amp; Wi-Fi Internet connectivity and well qualified faculty members.</string>
+
+    <string name="csevision">The Department of Computer Science and Engineering shall create professionally competent and socially responsible engineers capable of working in global environment.</string>
+
+
+    <!--Department of ISE-->
+
+    <string name="ise.faculty.list">IS&amp;E Faculty List</string>
+    <string name="ise">Department of IS&amp;E</string>
+    <string name="aboutisehead">About IS&amp;E Department</string>
+    <string name="isefaculty">FACULTIES OF IS&amp;E</string>
+    <string name="isRaJENDRA">Dr. A B RAJENDRA\n( Professor &amp; HoD )</string>
+    <string name="isVinutha.D.C">VINUTHA D C\n( Associate Professor )</string>
+    <string name="M.Tech.cne.Ph.D"> M.Tech (CNE), (Ph.D.)</string>
+    <string name="isPrema.N.S">PREMA N S.\n( Associate Professor )</string>
+    <string name="M.TechPh.D.">M.Tech.(SE), (Ph.D.)</string>
+    <string name="isPrashanth.M.V">PRASHANTH M V\n(Assistant Professor)</string>
+    <string name="isRajini.S">RAJINI S\n(Assistant Professor)</string>
+    <string name="isGowriShankar.B.S">GOWRISHANKAR B S\n(Assistant Professor)</string>
+    <string name="M.Tech.it.Ph.D.">M.Tech.(IT), (Ph.D.)</string>
+    <string name="isMohammed.Muddasir">MOHAMMED MUDDASIR\n(Assistant Professor)</string>
+    <string name="M.Tech.nie.Ph.D">M.Tech.(N&amp;IE), (Ph.D.)</string>
+    <string name="isPrashanth.Kumar.K.N">PRASHANTH KUMAR K N\n(Assistant Professor)</string>
+    <string name="isChandini.S.B">CHANDINI S B\n(Assistant Professor)</string>
+    <string name="isVidyashree.K.P">VIDYASHREE K P\n(Assistant Professor)</string>
+    <string name="isNaveen.Kumar.M.R">NAVEEN KUMAR M R\n(Assistant Professor)</string>
+    <string name="isShilpa.Shree.J.B">SHILPA SHREE J B\n(Assistant Professor)</string>
+    <string name="ise.vision.mision">Vision of IS&amp;E Department</string>
+    <string name="isemission.head">Missions of IS&amp;E department</string>
+    <string name="ise.faculty">Faculties of IS&amp;E</string>
+    <string name="M.Tech">M.Tech</string>
+
+    <string name="ise.lab">Well equipped labs with 32bit i3, i5 with 4 to 8gb RAM systems connected to LAN networks.</string>
+
+    <string name="ise.hall">Air Conditioned Seminar Hall for seminars from guest lecturers, workshops, etc.</string>
+
+    <string name="isemission1">1. Provide the best teaching-learning environment through proficient staff and excellent infrastructure.</string>
+    <string name="isemission2">2. Inculcate professional values and entrepreneurial skills to fulfill the career and societal needs.</string>
+    <string name="isemission3">3. Encourage innovations through research.</string>
+    <string name="isemission4">4. Facilitate interaction with elite Institutions and Industries for knowledge sharing.</string>
+
+    <string name="isedescription">Information Science is a field that has shrunk the world, brought distant places closer, made man get in touch with data and people, with the speed and power of lightning. The advancements in this sphere have been unbelievably tremendous. In the modern tech-savvy world, information science as a branch of engineering has been luring students because of its vast scope and opportunities. The focus of this branch is the design and implementation of information systems.
+ The Department of Information Science &amp; Engineering was established in the year 1999.The program prepares the students to design and manage computerized data processing and decision support .The program is technically oriented, emphasizing the design and implementation aspects of large scale information systems as well as the more traditional, managerial and organizational issues. It also balances development of systems engineering skills with learning to deliver reliable systems on time and within a specified budget.
+</string>
+
+    <string name="ise.vision">To be a premier department for quality education in Information Science and Engineering creating competent professionals to meet the societal needs.</string>
+
+
+    <!--Department of EEE-->
+
+    <string name="eee.faculty.list">EEE Faculty List</string>
+    <string name="eeedept">Department of EEE</string>
+    <string name="eee.vision.mision">Visionof EEE Department</string>
+    <string name="eee.mission.head">Missions of EEE Department</string>
+    <string name="abouteeehead">About EEE Department</string>
+    <string name="eefaculty">FACULTIES OF EEE</string>
+    <string name="eeSHOBHA.SHANKAR">Dr. SHOBHA SHANKAR\n( Professor &amp; HoD )</string>
+    <string name="M.Tech.ps.Ph.D.">M.Tech.(Power Systems), Ph.D.</string>
+    <string name="eeMOHAMED.JALALUDDIN">MOHAMED JALALUDDIN\n( Associate Professor )</string>
+    <string name="M.Tech.ps">M.Tech.(Power Systems)</string>
+    <string name="eeGOPAL.REDDY.K">GOPAL REDDY K\n( Associate Professor )</string>
+    <string name="M.E.">M.E.(Mgmt)</string>
+    <string name="eeRASHMI.S">RASHMI S\n( Associate Professor )</string>
+    <string name="M.Tech.vlsi.Es">M.Tech.(VLSI Design &amp; Embedded Systems)</string>
+    <string name="eeLOKESH.C">LOKESH C\n(Assistant Professor)</string>
+    <string name="eeRAVISHANKAR.M.B">RAVISHANKAR M B\n(Assistant Professor)</string>
+    <string name="eeBABU.RAJENDRA.PRASAD">BABU RAJENDRA PRASAD\n(Assistant Professor)</string>
+    <string name="eeARCHANA.K">ARCHANA K\n(Assistant Professor)</string>
+    <string name="eeRAGHUNATH.M.J"> RAGHUNATH M J\n(Assistant Professor)</string>
+    <string name="M.Tech.csA.ind">M.Tech.(Computer Applications in Industrial Drives)</string>
+    <string name="eeRAKSHITH.P"> RAKSHITH P\n(Assistant Professor)</string>
+    <string name="M.Tech.eln">M.Tech.(Electronics)</string>
+    <string name="eeGOWTHAM.N"> GOWTHAM N\n(Assistant Professor)</string>
+    <string name="M.Tech.meln.">M.Tech.(Micro Electronics &amp; Control Systems)</string>
+    <string name="eeAVINASH.R"> AVINASH R\n(Assistant Professor)</string>
+    <string name="M.Tech.pe">M.Tech. (power Electronics)</string>
+    <string name="eeSAVYASACHI.G.K"> SAVYASACHI G K\n(Assistant Professor)</string>
+    <string name="eeRESHMA.V.P"> RESHMA V P\n(Assistant Professor)</string>
+    <string name="M.Tech.de">M.Tech.(Digital Electronics)</string>
+    <string name="eeefaculty">Faculties of EEE</string>
+
+    <string name="eee.mission1">1. Impart technical competency in Electrical and Electronics Engineering through competent staff, effective teaching learning process and good infrastructure.</string>
+    <string name="eee.mission2">2. Strengthen industry institute interaction for knowledge sharing and innovative projects.</string>
+    <string name="eee.mission3">3. Inculcate professional ethics, self-learning capability, entrepreneurial skills and leadership qualities for overall professional success.</string>
+    <string name="eee.mission4">4. Foster research and development activities for academic excellence.</string>
+
+
+    <string name="eeedes">The Department of Electrical &amp; Electronics Engineering was started in 2004. The Department caters the need of the students by providing quality education. The Department has well qualified &amp; dedicated faculty members; 14 teaching, 1 Foreman, 2 Assistant Instructors and one office clerk. Highly qualified experienced and dedicated staff members are the backbone of the department.This course is designed to meet the needs of Electrical Power Generation, Power Transmission and Distribution, Electrical Power Utilization, Modern Control Theory, Electrical CAD, High Voltage Engineering, Circuits, Machines, Drives etc.</string>
+
+    <string name="eee.vision">The Department of Electrical and Electronics Engineering shall create competent professionals through quality education and research for benefit of the society.</string>
+
+    <string name="eeelab">Well equipped lab with modern instruments, well equipped machine labs and design labs. </string>
+
+    <!--Department of Mechanical-->
+
+    <string name="faculty.name">Name of Faculty</string>
+    <string name="faculty.Designation">Designation</string>
+    <string name="Mech">Department of Mechanical</string>
+    <string name="mech.faculty.list">Mechanical Faculty List</string>
+    <string name="mech.vision.mision">Vision of Mechanical Department</string>
+    <string name="mech.mission.head">Missions of Mechanical Department</string>
+    <string name="aboutmech">About Mechanical Department</string>
+    <string name="mefaculty">Faculties of Mechanical</string>
+    <string name="meDr.L.J.Sudev">Dr .L. J Sudev\n( Professor &amp; HoD )</string>
+    <string name="Professor.Head">Professor &amp; HoD</string>
+    <string name="meG.B.Krishnappa">Dr G. B. Krishnappa</string>
+    <string name="Dean.RD.Professor"> Dean (R&amp;D) and Professor</string>
+    <string name="meDr.G.V.Naveen.Prakash">Dr. G. V. Naveen Prakash</string>
+    <string name="Professor.and.PG.Coordinator">Professor and PG Coordinator</string>
+    <string name="meK.S.Ravi">K S Ravi</string>
+    <string name="Associate.Professor">Associate Professor</string>
+    <string name="meK.B.Vinay">Dr. K B Vinay</string>
+    <string name="meKhalid.Imran">Khalid Imran</string>
+    <string name="meDr.B.C.Ashok">Dr. B C Ashok</string>
+    <string name="meN.Jayashankar">N Jayashankar</string>
+    <string name="meS.A.Mohan.Krishna">A Mohan Krishna</string>
+    <string name="meThammegowda.C.S">Thammegowda C S</string>
+    <string name="meChandan.V">Chandan V</string>
+    <string name="Assistant.Professor">Assistant Professor</string>
+    <string name="meY.P.Mamatha">Y P Mamatha</string>
+    <string name="meNaveen.Ankegowda">Naveen Ankegowda</string>
+    <string name="meArunKumar.K.N">ArunKumar K N</string>
+    <string name="meB.B.Ganesha">B B Ganesha</string>
+    <string name="meVinod.B">Vinod B</string>
+    <string name="meRishi.J.P">Rishi J P</string>
+    <string name="meArun.C.Dixit.U">Arun C Dixit U</string>
+    <string name="meMuthuraju.N.P">Muthuraju N P</string>
+    <string name="meShivashankar.R">Shivashankar R</string>
+    <string name="meDeepak.G">Deepak G</string>
+    <string name="meNithyananda.B.S">Nithyananda B S</string>
+    <string name="meAmruth.E">Amruth E</string>
+    <string name="meHemanth.Kumar.K.J">Hemanth Kumar K J</string>
+    <string name="meRaghu.N">Raghu N</string>
+    <string name="meBalu.Vijay.S.N">Balu Vijay S N</string>
+    <string name="meShrinivasa.D">Shrinivasa D</string>
+    <string name="meGurudatt.H.M">Gurudatt H M</string>
+    <string name="meVismay.K.G">Vismay K G</string>
+    <string name="meGururaja.S">Gururaja S</string>
+    <string name="meMadhusudan.S">Madhusudan  S</string>
+
+    <string name="mechmission1">1. Promote innovative teaching-learning methods to enhance problem solving skills</string>
+    <string name="mechmission2">2. Enhance industry-institute interaction for mutual benefit by collaborating with Industries.</string>
+    <string name="mechmission3">3. Facilitate research and developmental activities by providing state - of–the- art facilities in the research centers.</string>
+    <string name="mechmission4">4. Nurture entrepreneurial skills by establishing incubation center </string>
+    <string name="mechmission5">5. Promote Leadership qualities, work culture and professional ethics through overall personality development.</string>
+
+    <string name="mechdes">The Department of Mechanical Engineering was established in 1997 with an intake of 120. The department has grown leaps and bounds since then. Mechanical Department has its own block housing all the laboratories, workshops, and lecture halls and staff rooms. It has a student population of 360 with an annual intake of 90 (since 2009). The department is well equipped with state- of- the- art laboratories, workshops &amp; infrastructural facilities. The machine shop has a CNC lathe besides conventional lathes, milling machines, drilling machines, etc. The department has excellent computational facilities and resources both in terms of hardware and software. The department has 110 computers loaded with a wide range of software Packages.</string>
+
+    <string name="mech.vision">To be a Centre of Excellence in Mechanical Engineering promoting value added education, distinguishing research and innovative entrepreneurship.</string>
+
+    <string name="workshop">Well equipped workshops with classic machines like lathe to modern CNC lathe machines to impart practical knowledge with classical machines to modern machines</string>
+    <string name="melabs">Well equipped Design labs with 110 systems loaded with wide range of software packages</string>
+
+
+    <!--Department of ECE-->
+
+
+    <string name="ecedept">Department of ECE</string>
+    <string name="ece.faculty.list">ECE Faculty List</string>
+    <string name="aboutecehead">About Department of ECE</string>
+    <string name="ece.vision.mision">Vision of ECE Department</string>
+    <string name="ece.mission.head">Missions of ECE Department</string>
+    <string name="ecefaculty">FACULTIES OF EC&amp;E</string>
+    <string name="eceD.J.Ravi">Dr.D  J  Ravi\n( Professor &amp; HoD )</string>
+    <string name="ME">ME,Ph.D ; M.Tech,Ph.D</string>
+    <string name="eceSurekha"> Dr. T.P.Surekha</string>
+    <string name="MTech.phd">M.Tech,Ph.D</string>
+    <string name="eceChandrashekar">Dr. Chandrashekar M Pati</string>
+    <string name="eceSuchitra">Suchitra M\n( Associate Professor )</string>
+    <string name="eceShilpa">Shilpa R\n( Associate Professor )</string>
+    <string name="eceGeetha">Geetha Shree A.\n( Associate Professor )</string>
+    <string name="eceSandeep">Sandeep R\n( Associate Professor )</string>
+    <string name="eceGEetha">  Geetha M N\n(Assistant Professor)</string>
+    <string name="eceChethana"> Chethana K S\n(Assistant Professor)</string>
+    <string name="eceSudheesh"> Sudheesh K V\n(Assistant Professor)</string>
+    <string name="eceJagadeesh"> Jagadeesh B\n(Assistant Professor)</string>
+    <string name="eceArjun"> Arjun K R\n(Assistant Professor)</string>
+    <string name="eceMahadeva"> Mahadeva Swamy\n(Assistant Professor)</string>
+    <string name="eceChethan"> Chethan K\n(Assistant Professor)</string>
+    <string name="eceSharath"> Sharath Kumar A J\n(Assistant Professor)</string>
+    <string name="eceBindu"> Bindu N S\n(Assistant Professor)</string>
+    <string name="eceSowmya"> Sowmya M\n(Assistant Professor)</string>
+    <string name="eceKavya"> Kavya A P\n(Assistant Professor)</string>
+    <string name="eceGirijamba"> Girijamba D L\n(Assistant Professor)</string>
+    <string name="eceKavyashree"> Kavyashree B\n(Assistant Professor)</string>
+    <string name="eceRohith"> Rohith K\n(Assistant Professor)</string>
+    <string name="eceAlfred"> Alfred Vivek D\'Souza\n(Assistant Professor) </string>
+    <string name="eceBhargavi"> Bhargavi K\n(Assistant Professor)</string>
+    <string name="eceSahana"> Sahana M S\n(Assistant Professor)</string>
+    <string name="ecePraveena"> Praveena K S\n(Assistant Professor)</string>
+    <string name="eceAudre"> Audre Arlene A\n(Assistant Professor)</string>
+    <string name="eceShyma"> Shyma Zaidi\n(Assistant Professor)</string>
+    <string name="eceYogeshwari"> Yogeshwari K R\n(Assistant Professor)</string>
+
+
+    <string name="ecemission1">1. To impart quality education through competent staff and excellent infrastructure.</string>
+    <string name="ecemission2">2. To provide conducive environment for holistic personality development.</string>
+    <string name="ecemission3">3. To encourage research in frontier areas for meeting the societal needs.</string>
+    <string name="ecemission4">4. To nurture the spirit of entrepreneurial skills among  students </string>
+
+    <string name="ecedes">The Electronics &amp; Communication Engineering program was started in the year 1997. The focus of the Department is to produce graduates with strong fundamentals in electronics and communication domain. The course is structured on outcome based education praradigm to help students to achieve the goals. The Department is the most sought after branch of engineering by top CET (conducted by Karnataka examination authority) rank holders. The Department of Electronics and Communication Engineering with highly qualified staff is well equipped with centralized laboratories having the latest configurations and software tools.  </string>
+
+    <string name="ece.vision">The department of Electronics and Communication Engineering shall excel in academics through quality education and research, producing value embedded professionals to serve the society.</string>
+
+
+    <string name="ecelab">Well equipped lab with modern instruments and Robotics lab for encouraging development is robotics.</string>
+    <string name="indvisit">Frequent Industrial visits to enrich students with real life industrial knowledge and knowledge of industrial equipments</string>
+
+    <!--Department of Civil Engineering-->
+
+    <string name="civilhead">Department of Civil</string>
+    <string name="aboutcivil">About Civil Engg. Department</string>
+    <string name="civil.vision.mission">Vision of Civil Department</string>
+    <string name="civil.mission.head">Missions of Civil Department</string>
+    <string name="civil.faculty">Faculties of Civil Engineering</string>
+
+
+    <string name="cv.Dayananda"><b>Dr H.S Dayananda\n(HOD and Professor)</b></string>
+    <string name="Me.phd.Fie"> M.E.,Ph.D, FIE, FIEE</string>
+    <string name="cv.Mahesh">D .P Mahesh\n(Associate Professor)</string>
+    <string name="cv.Shilpa">Shilpa B.S\n(Associate Professor)</string>
+    <string name="cv.Sharmila">Sharmila.A\n(Assistant Professor)</string>
+    <string name="cv.Roopa">Roopa Priya J.K\n(Assistant Professor)</string>
+    <string name="cv.Knmani">Kanmani S.S\n(Assistant Professor)</string>
+    <string name="cv.Arjun">Arjun.V\n(Assistant Professor)</string>
+    <string name="cv.Anjan">Anjan B.K\n(Assistant Professor)</string>
+    <string name="cv.Manoj">Manoj P\n(Assistant Professor)</string>
+    <string name="cv.Ichitha">Ichitha M.K\n(Assistant Professor)</string>
+    <string name="cv.Giris">Girish P\n(Assistant Professor)</string>
+    <string name="M.SC">M.Sc</string>
+    <string name="cv.Rajeeth">Rajeeth T.J\n(Assistant Professor)</string>
+    <string name="cv.Chetana">Chetana L\n(Assistant Professor)</string>
+    <string name="cv.Amith">Amith\n(Assistant Professor)</string>
+
+
+    <string name="civilmission1">1. Provide quality education emphasizing on emerging technologies through competent staff and modern facilities </string>
+    <string name="civilmission2">2. Imbibe logical thinking ability, communication skills, professional ethics, leadership and entrepreneurial qualities   </string>
+    <string name="civilmission3">3. Promote research for developing sustainable infrastructure</string>
+    <string name="civilmission4">”> 4. Take up collaborative projects for long term association with industry and academic experts</string>
+
+
+    <string name="civildes">The Department of Civil Engineering was started in the year 2013 with an intake of 60 students. The State-of-art Laboratories are set up to cater the needs of students. The course is aimed at training students for suitable skilled engineering personnel required for industries and governmental organizations.  To gain valuable contact with industry and to have practical exposure, routine lectures are supplemented with distinguished lectures, field trips offering valuable networking opportunities with future employers.</string>
+
+    <string name="civil.vision">The Department of Civil Engineering shall develop socially responsible civil engineers through quality education keeping pace with emerging technologies.</string>
+
+    <string name="cvlabs">Well equipped labs and survey instruments for best in class practical knowledge imparting</string>
+    <!--MBA Department-->
+
+    <string name="mbadept">Department of Management</string>
+    <string name="aboutMbahead">About MBA Department</string>
+    <string name="mbavision.mision">Vision of MBA Department</string>
+    <string name="mba.mission.head">Missions of MBA Department</string>
+    <string name="mbafaculty">Faculties of MBA Department</string>
+    <string name="mbalist">MBA Faculty list</string>
+    <string name="mbaBalaji">Dr.P.S.V Balaji Rao\n( Professor &amp; HoD )</string>
+    <string name="mba.phd">MBA PhD.</string>
+    <string name="mbaLakshmi">Dr.Lakshmi P\n( Associate Professor )</string>
+    <string name="mbaBhavani">Dr.Bhavani Shree A\n( Associate Professor )</string>
+    <string name="mbaVijayalakshmi"> Vijayalakshmi Urs\n(Assistant Professor)</string>
+    <string name="mbaManjunath"> Manjunath S\n(Assistant Professor)</string>
+    <string name="mbaKantesha"> Kantesha Sanningammanavara\n(Assistant Professor)</string>
+    <string name="mba.mcom">MBA, M.Com</string>
+    <string name="mbaGirish"> Girish K\n(Assistant Professor)</string>
+    <string name="mbaBharathi"> Bharathi T\n(Assistant Professor)</string>
+    <string name="mbaNarayanaswamy"> Narayanaswamy T\n(Assistant Professor)</string>
+    <string name="mbaRamkumar"> Ramkumar S\n(Assistant Professor)</string>
+    <string name="mbaShankar"> Dr. N Shankar\n(Assistant Professor)</string>
+    <string name="mbaSomashekhar"> Somashekar I C\n(Assistant Professor)</string>
+    <string name="mbaNagesh"> Dr. Nagesh M R\n(Assistant Professor)</string>
+
+    <string name="mbamission1">To develop value-centered leaders by fostering a conducive environment to disseminate business knowledge and practices that is entrepreneurial in spirit, ethical in focus, and global in orientation</string>
+
+
+    <string name="mbades">The Department of Business Administration started in the year 2008 to give quality education and to enable the student community to take up responsibility of building managerial skills with a view to moulding them for managerial positions in  the industry. Since its inception ,the department stands one among the best management schools in Mysuru, providing excellent academic delivery and infrastructure to students.The department offers full time two years MBA programmes with dual specialization in streams of Finance,Marketing and Human Resources. </string>
+
+    <string name="mbavision">To be recognized as a center of excellence in management education by creating and realizing Life-changing opportunities for graduates.</string>
+
+
+    <!--TAP Department-->
+
+    <string name="tapdept">Training and Placement</string>
+    <string name="tapabout">About T&amp;P Department</string>
+    <string name="recruitershead">Our Esteem Recruiters</string>
+    <string name="tapRoopa">Training &amp; Placement Officer\nRoopa Priya J K</string>
+
+    <string name="tapdes1">The Training and Placement department (TAP) is an integral part of VVCE connecting students of BE, MTech and MBA, and also the faculty members of all the departments. The department works in close co-ordination with Department Placement Coordinators (DPC), comprising of both students and faculty members chosen from individual departments.
+    </string>
+
+    <string name="tapdes2">TAP dept strives to connect industry and institute through various programs such as student internships, industrial training, industry visit, technical talk by industry delegates and many more. The dept is in close association with various reputed companies and continues to coordinate with esteemed recruiters to enhance placements at VVCE.
+    </string>
+
+
+    <string name="tapdes4">The center is in touch with many hardware, software companies, mechanical and information technology industries for placement of potential candidates. We work on a industry-feedback methodology, where the industry gives us feedback on the performance of our earlier students, and which in turn, is used to modify the existing teaching practices.
+    </string>
+    <string name="title_activity_facility">Facilities</string>
+
+    <string name="companies">1. Infosys Technologies\n2. Happiest Minds\n3. V Tiger\n4. Mindtree\n5. Brillio\n6. L&amp;T Infotech\n7. Trianz\n8.Span Infotech\n9. Global Soft Solutions\n10. Socgen\n11. ICICI Securities Ltd\n12.Jaro Education\n13. Processor System\n14. Future Group\n15. Fanuc India\n16. Mphasis\n17. Decathlon\n18. Career Net\n19. SIMS\n20. Manhattan Associates\n21. CapGemini\n22. Amazon\n23. HDFC Bank\n24. TCS\n25. KPMG\n26. JustDial\n27. HP</string>
+    <string name="title_activity_about_app">About app</string>
+
+    <string name="app_des">"Namma VVCE" developed by Kartikeya Malimath and Team Wisemen Solutions\n\nPublished by Vidyavardhaka College of Engineering\n\n© All Rights Reserved  | VVCE Mysuru &amp; Kartikeya Malimath And Team.  </string>
+
+    <string name="Developers">Software developer and Designer\nKartikeya P Malimath\n\nTeam\n\nMadhura P Divakara\nDinavahi Sri Chaitanya\nSoumaya LG Joshi</string>
+    <string name="title_activity_gallery">Gallery</string>
+
+
+</resources>

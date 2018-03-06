@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="wisemensolutions.nammavvce.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    <!--Designed by Kartikeya P Malimath on 08-11-2017-->
+
+    <!--Last updated on-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary"
+                android:contentDescription="@string/click.faculty.list"
+                android:scaleType="centerCrop"
+                android:src="@drawable/facility_campus" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/background"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorheading"
+                        android:gravity="center_horizontal"
+                        android:padding="8dp"
+                        android:scrollHorizontally="false"
+                        android:text="@string/Recent"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:orientation="vertical"
+                        android:padding="8dp" />
+
+                    <TextView
+                        android:id="@+id/vvce_recent1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:padding="8dp"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="VVCE Mysuru launches a new app 'Namma VVCE'"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/vvce_recent2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:padding="8dp"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="@string/noNet"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/vvce_recent3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:padding="8dp"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="@string/noNet"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/vvce_recent4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:padding="8dp"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="@string/noNet"
+                        android:textColor="@color/white"
+                        android:textSize="17sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="@string/vvce.vision.mision"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:padding="8dp"
+                        android:text="@string/vvce.vision"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp" />
+
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Excellent Engineering College in Karnataka Award - 2016"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:contentDescription="college images"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/excelent" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center_horizontal"
+                    android:padding="8dp"
+                    android:text="@string/Department"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/textbackground"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="8dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal"
+                            android:padding="0dp"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/dept"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical"
+                                android:padding="4dp">
+                                <!--Designed by Kartikeya P Malimath-->
+                                <ImageView
+                                    android:id="@+id/imageview4"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:contentDescription="@string/csEngg"
+                                    android:src="@drawable/cselogo" />
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:lines="3"
+                                    android:padding="4dp"
+                                    android:text="@string/csEngg"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+                            </LinearLayout>
+
+                            <Space
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent"
+                                tools:targetApi="ice_cream_sandwich" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/dept"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical"
+                                android:padding="4dp">
+
+                                <ImageView
+                                    android:id="@+id/imageview5"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:contentDescription="@string/isEnggg"
+                                    android:src="@drawable/iselogo" />
+
+                                <TextView
+                                    android:id="@+id/textView15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:lines="3"
+                                    android:padding="4dp"
+                                    android:text="@string/isEnggg"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+                            </LinearLayout>
+                            <!--Designed by Kartikeya P Malimath-->
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal"
+                            android:padding="0dp"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/dept"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical"
+                                android:padding="4dp">
+
+                                <ImageView
+                                    android:id="@+id/imageview2"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:contentDescription="@string/ecEngg"
+                                    android:src="@drawable/ecelogo" />
+
+                                <TextView
+                                    android:id="@+id/textView8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:padding="4dp"
+                                    android:text="@string/ecEngg"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+                            </LinearLayout>
+
+                            <Space
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/dept"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical"
+                                android:padding="4dp">
+
+                                <ImageView
+                                    android:id="@+id/imageview3"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:contentDescription="@string/eeEngg"
+                                    android:src="@drawable/eeelogo" />
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:padding="4dp"
+                                    android:text="@string/eeEngg"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal"
+                            android:padding="0dp"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@color/dept"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical"
+                                android:padding="4dp">
+
+                                <ImageView
+                                    android:id="@+id/imageview6"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:contentDescription="@string/meEngg"
+                                    android:src="@drawable/melogo" />
+
+                                <TextView
+                                    android:id="@+id/textView16"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:padding="4dp"
+                                    android:text="@string/meEngg"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+                            </LinearLayout>
+
+                            <Space
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/dept"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical"
+                                android:padding="4dp">
+                                <!--Designed by Kartikeya P Malimath on 08-11-2017-->
+                                <ImageView
+                                    android:id="@+id/imageview7"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:contentDescription="@string/civilEngg"
+                                    android:src="@drawable/cvlogo" />
+
+                                <TextView
+                                    android:id="@+id/textView17"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:lines="2"
+                                    android:padding="4dp"
+                                    android:text="@string/civilEngg"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:baselineAligned="false"
+                            android:orientation="horizontal"
+                            android:padding="0dp"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@color/dept"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical"
+                                android:padding="4dp">
+
+                                <ImageView
+                                    android:id="@+id/imageview8"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:contentDescription="@string/mba"
+                                    android:src="@drawable/mbalogo" />
+
+                                <TextView
+                                    android:id="@+id/textView18"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:lines="2"
+                                    android:padding="4dp"
+                                    android:text="@string/mba"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+                            </LinearLayout>
+
+                            <Space
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/dept"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:orientation="vertical"
+                                android:padding="4dp">
+
+                                <ImageView
+                                    android:id="@+id/imageview9"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:contentDescription="@string/tap"
+                                    android:src="@drawable/taplogo" />
+
+                                <TextView
+                                    android:id="@+id/textView19"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_horizontal"
+                                    android:lines="2"
+                                    android:padding="4dp"
+                                    android:text="@string/tap"
+                                    android:textColor="@color/white"
+                                    android:textSize="17sp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Clubs"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:contentDescription="college images"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/main1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/textbackground"
+                            android:padding="4dp"
+                            android:text="@string/club.des"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="COLLEGE FEST"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:contentDescription="college images"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/fest" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/textbackground"
+                            android:padding="4dp"
+                            android:text="@string/fest"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp" />
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="FACULTY"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:contentDescription="college images"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/staff" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/textbackground"
+                            android:padding="4dp"
+                            android:text="@string/faculty.des"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/vvce.mission.head"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/textbackground"
+                        android:lineSpacingExtra="4dp"
+                        android:padding="8dp"
+                        android:text="@string/vvce.mission1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/textbackground"
+                        android:lineSpacingExtra="4dp"
+                        android:padding="8dp"
+                        android:text="@string/vvce.mission2"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/textbackground"
+                        android:lineSpacingExtra="4dp"
+                        android:padding="8dp"
+                        android:text="@string/vvce.mission3"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/textbackground"
+                        android:lineSpacingExtra="4dp"
+                        android:padding="8dp"
+                        android:text="@string/vvce.mission4"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorheading"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="Contact Us"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="@string/address"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="@string/contactus"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="3">
+
+                        <ImageView
+                            android:id="@+id/imageview10"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/contactus"
+                            android:padding="3dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/callred" />
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                        <ImageView
+                            android:id="@+id/imageview12"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/contactus"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/email" />
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                        <ImageView
+                            android:id="@+id/imageview11"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/contactus"
+                            android:padding="1dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/gpsred" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="@string/Follow"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:weightSum="4">
+
+                        <ImageView
+                            android:id="@+id/facebook"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/Follow"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/fb" />
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                        <ImageView
+                            android:id="@+id/insta"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/Follow"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/insta" />
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                        <ImageView
+                            android:id="@+id/twitter"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/Follow"
+                            android:scaleType="centerInside"
+                            android:src="@mipmap/twitter" />
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                        <ImageView
+                            android:id="@+id/linked"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1"
+                            android:contentDescription="@string/Follow"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/linkedin" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorheading"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/kartikeya.Malimath"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

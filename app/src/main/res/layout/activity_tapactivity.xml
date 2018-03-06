@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wisemensolutions.nammavvce.tapactivity">
+
+    <!--Created by Kartikeya Malimath on 26-11-2017-->
+
+    <!--Last updated on-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="@string/tapdept"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical">
+            
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:contentDescription="@string/cse"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mbablock" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorheading"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Training and Placement Department"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+            
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tapabout"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/tapdes1"
+                android:textColor="@color/white"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorheading"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/Recent"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/tap_recent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+                <!--Created by Kartikeya Malimath on 26-11-2017-->
+                <TextView
+                    android:id="@+id/tap_recent2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+
+                <TextView
+                    android:id="@+id/tap_recent3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+
+                <TextView
+                    android:id="@+id/tap_recent4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/contact"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Placements"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/tapdes2"
+                android:textColor="@color/white"
+                android:background="@color/contact"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Group Discussions"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:contentDescription="@string/cse"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tapgd" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="TaP and VVCE"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/tapdes4"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:textSize="15.5sp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <!--Created by Kartikeya Malimath on 26-11-2017-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recruitershead"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:text="@string/companies"
+                android:background="@color/textbackground"
+                android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="TaP Co-ordinator"
+             android:textColor="@color/white"
+             android:textStyle="bold"
+             android:padding="8dp"
+             android:textSize="18sp"
+             android:gravity="center"
+             android:background="@color/colorPrimary"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp"
+                android:shrinkColumns="1"
+                android:background="@color/colorlightblue">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:weightSum="7">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@color/white"
+                    android:padding="6dp"
+                    android:text="@string/tapRoopa"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:padding="6dp"
+                    android:text="@string/M.Tech"
+                    android:textColor="@color/black"
+                    android:textSize="15.5sp" />
+            </TableRow>
+                <!--Created by Kartikeya Malimath on 26-11-2017-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="9591931988"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="Mobile"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:background="@color/white"
+                        android:padding="6dp"
+                        android:text="0821-4276288"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:padding="6dp"
+                        android:text="TaP Office"
+                        android:textColor="@color/black"
+                        android:textSize="15.5sp" />
+                </TableRow>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="6dp"
+                    android:background="@color/colorPrimary" />
+            </TableLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorheading"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:text="@string/kartikeya.Malimath"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+</LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

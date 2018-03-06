@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="wisemensolutions.nammavvce.cseactivity">
+    <!--Designed by Kartikeya P Malimath on 17-11-2017-->
+
+    <!--Last updated on-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/mbadept"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical">
+            
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:contentDescription="@string/cse"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mbablock" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorheading"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="Department of Business Administration"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:orientation="vertical"
+            android:paddingBottom="2dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:text="@string/mbavision.mision"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mbavision"
+                android:textColor="@color/white"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:text="@string/aboutMbahead"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mbades"
+                android:textColor="@color/black"
+                android:background="@color/textbackground"
+                android:textSize="15.5sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorheading"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="@string/Recent"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:padding="6dp">
+
+
+                <TextView
+                    android:id="@+id/mba_recent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+
+                <TextView
+                    android:id="@+id/mba_recent2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+
+                <TextView
+                    android:id="@+id/mba_recent3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+
+                <TextView
+                    android:id="@+id/mba_recent4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:padding="8dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:text="@string/noNet"
+                    android:textColor="@color/white"
+                    android:textSize="15.5sp" />
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Classroom &amp; Labs"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mbaclass" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/textbackground"
+                android:padding="8dp"
+                android:text="@string/classroom"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:text="@string/mba.mission.head"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mbamission1"
+                android:background="@color/textbackground"
+                android:textColor="@color/black"
+                android:textSize="15.5sp" />
+
+                </LinearLayout>
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="75dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:text="@string/mbafaculty"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <Button
+                android:id="@+id/mbafaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/click.faculty.list" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorheading"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:text="@string/kartikeya.Malimath"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
